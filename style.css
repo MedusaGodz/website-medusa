@@ -1,0 +1,584 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    display: block;
+}
+body {
+    margin: 0;
+    padding: 0%;
+    font-family: Poppins;
+    background: #000000;
+}
+p {
+    position: relative;
+    left: 10.80rem;
+    top: 6.50rem;
+    font-size: 1.50rem;
+}
+h1 {
+    text-align: center;
+    position: relative; top: 
+    -.10rem;
+    font-size: 4rem;
+}
+nav {
+    width: 100%;
+    background: #000000;
+    opacity: 0.8;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    height: 3.5rem;
+}
+.profile {
+    height: 3rem;
+    border-radius: 100%;
+    margin-left: 10px;
+    border: 1px solid #fff;
+    position: relative;
+    top: 3px;
+}
+ul {
+    padding: 0%;
+    margin: 0;
+    list-style: none;
+}
+li {
+    float: right;
+}
+#linkhome {
+    padding: 0%;
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid #fff;
+    border: none;
+    text-align: center;
+    position: relative; 
+    top: .80rem;
+}
+#linkhome:hover {
+     background: #fff;
+    color: #171717;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px #fff;
+}
+#linkclient {
+    padding: 0%;
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid #fff;
+    border: none;
+    text-align: center;
+    position: relative; 
+    top: .80rem;
+}
+#linkclient:hover {
+     background: #fff;
+    color: #171717;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px #fff;
+}
+#linkproject {
+    padding: 0%;
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid #fff;
+    border: none;
+    text-align: center;
+    position: relative; 
+    top: .80rem;
+}
+#linkproject:hover {
+     background: #fff;
+    color: #171717;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px #fff;
+}
+#linkjoin {
+    padding: 0%;
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid #fff;
+    border: none;
+    text-align: center;
+    position: relative; 
+    top: .80rem;
+}
+#linkjoin:hover {
+     background: #fff;
+    color: #171717;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px #fff;
+}
+#linkblog {
+    padding: 0%;
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid #fff;
+    border: none;
+    text-align: center;
+    position: relative; 
+    top: .80rem;
+}
+#linkblog:hover {
+     background: #fff;
+    color: #171717;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px #fff;
+}
+#linkcontact {
+    padding: 0%;
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid #fff;
+    border: none;
+    text-align: center;
+    position: relative; 
+    top: .80rem;
+}
+#linkcontact:hover {
+     background: #fff;
+    color: #171717;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px #fff;
+}
+#linkvisit {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    top: 6rem;
+    left: -10rem;
+    font-size: 1.50rem;
+    font-family: Poppins;
+    background: #0000ff;
+    border-radius: 30px;
+}
+#linkvisit:hover {
+    background: #fff;
+    color: #171717;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px #fff;
+
+}
+#linkbutton {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    top: 5.50rem;
+    left: .70rem;
+    font-size: 1.10rem;
+    font-family: Poppins;
+    background: #0000ff;
+    border-radius: 30px;
+}
+#linkbutton:hover {
+    background: #fff;
+    color: #171717;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px #fff;
+
+}
+#section1  {
+    height: 700px;
+    background: url('cover1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 10px #000000;
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+}
+#section2 {
+    height: 700px;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    background: #000000;
+}
+#section3 {
+    height: 700px;
+    background: #000000;
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    box-shadow: 0px 0px 10px #000000;
+}
+#section4 {
+    height: 700px;
+    background: url('blog.avif');
+     background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+}
+#section5 {
+    background: #fff;
+    height: 700px;
+    color: #000000;
+    display: inline-block;
+    width: 100%;
+}
+#section6 {
+    height: 700px;
+    background: #000000;
+    display: inline-block;
+    width: 100%;
+}
+#section7 {
+    position: relative;
+    left: 10rem;
+    font-size: 1.10rem;
+}
+.header1 {
+    position: relative;
+    top: 10rem;
+    right: 2rem;
+    font-size: 4rem;
+}
+.content1 {
+    border: solid 2px #fff;
+    border: none;
+    height: 33.80rem;
+    position: relative;
+    top: -2rem;
+    overflow-y: scroll;
+}
+.clients-logo .logo {
+    height: 11rem;
+    width: 11rem;
+    border-radius: 100%;
+    box-sizing: border-box;
+    border: solid 2px #fff;
+    box-shadow: 1px 2px 1px #fff;
+    position: relative;
+    left: 5rem;
+
+}
+.client1 p {
+    display: inline-block;
+    font-size: 15px;
+    position: relative;
+    top: -2rem;
+    left: 7rem;
+    text-align: justify;
+    width: 50rem;
+}
+.client2 p {
+    display: inline-block;
+    font-size: 15px;
+    position: relative;
+    top: -4rem;
+    left: 7rem;
+    text-align: justify;
+    width: 50rem;
+}
+.client3 p {
+    display: inline-block;
+    font-size: 15px;
+    position: relative;
+    top: -4rem;
+    left: 7rem;
+    text-align: justify;
+    width: 50rem;
+}
+.content2 p {
+    position: relative;
+    top: -13.60rem;
+    left: 15rem;
+    width: 35rem;
+    height: 15rem;
+    text-align: justify;
+    display: block;
+    font-size: 1.30rem;
+    font-family: Raleway;
+    color: #fff;
+    background: #000000;
+    border: 1px solid #0000ff;
+    box-shadow: 4px 7px 1px #0000ff;
+}
+#section3
+.img1 {
+    height: 12rem;
+    float: right;
+    position: relative;
+    left: -5rem;
+    top: -22.15rem;
+    border: solid 1px #0000ff;
+    box-shadow: 4px 7px 1px #0000ff;
+}
+#section3 .img2 {
+    height: 12rem;
+    float: left;
+    position: relative;
+    right: -26rem;
+    top: -22.15rem;
+    border: solid 1px #0000ff;
+    box-shadow: 4px 7px 1px #0000ff;
+}
+#section3 #qrcode {
+    height: 17rem;
+    width: 17rem;
+    box-sizing: content-box;
+    border: solid 1px #0000ff;
+    border-radius: 100%;
+    position: relative;
+    left: -20rem;
+    top: -25rem;
+    padding: 1%;
+    background: #000000;
+    box-shadow: 4px 7px 1px #0000ff;
+}
+.button1 {
+    position: relative;
+    left: 3rem;
+    top: -25rem;
+    height: 3rem;
+    width: 10rem;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #fff;
+    background: #0000ff;
+    border: none;
+    border-radius: 30px;
+    font-family: Poppins;
+}
+.button1:hover {
+    background: #fff;
+    color: #171717;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px #fff;
+}
+#section3 p {
+    position: relative; 
+    top: -2rem;
+    left: 3rem;
+    width: 78rem;
+    height: 28rem;
+}
+#section1 .programmer {
+    height: 10rem;
+    float: left;
+    position: relative; 
+    top: 7.50rem;
+    left: 5rem;
+    border-radius: 100%;
+    border: solid 2px #000000;
+    border: none;
+     box-shadow: 0px 0px 20px #000000;
+}
+#section4 h1 {
+     background: #000000;
+     position: relative;
+     top: .50rem;
+}
+#section4 p {
+    position: relative;
+    top: -8rem;
+    font-size: 1.20rem;
+    left: 25rem;
+}
+#section4 .sblink {
+    position: relative;
+    left: 11.50%;
+    top: 1rem;
+    font-size: 1.50rem;
+    background: #0000ff;
+    color:#fff;
+    border-radius: 20px;
+}
+#section4 .sblink:hover {
+    background: #fff;
+    color: #000000;
+    transition: 0.3s;
+}
+.blogs h1 {
+    position: relative;
+    top: -2.30rem;
+    left: -32rem;
+    color: #fff;
+    font-size: 2.50rem;
+    font-family: Oswald;
+}
+.blogs p {
+    position: relative;
+    left: 12.50rem;
+    top: -23rem;
+    border: solid 1px #fff;
+    width: 60rem;
+    background: #fff;
+    color: #000000;
+    opacity: 0.8;
+    font-family: Raleway;
+}
+.blogs #blogs {
+    height: 29rem;
+    width: 80.55rem;
+    background-position: center;
+    position: relative;
+    left: 2%;
+    top: -2.50rem;
+    box-shadow: 0px 0px 10px #000000;
+}
+.sandbox {
+    background: #000000;
+    opacity: 0.8;
+    position: relative;
+    top: -3.40rem;
+    height: 35.90rem;
+}
+#assembly {
+    background: #000000;
+    opacity: 0.8;
+    position: relative;
+    top: -6.40rem;
+    left: 4.85rem;
+    height: 15.90rem;
+    width: 30rem;
+}
+.content3 #sandbox {
+    height: 20rem;
+    position: relative; 
+    left: 3rem;
+    top: -3rem;
+    box-shadow: 4px 7px 1px #fff;
+    border-radius: 100%;
+}
+.content3 h2 {
+    position: relative; 
+    left: 4.45rem;
+    font-weight: Bold;
+    font-family: Oswald;
+    top: 22.50rem;
+    color: #fff;
+    font-size: 2rem;
+}
+button {
+    position: relative;
+    left: 10.80rem;
+    top: 5.90rem;
+    height: 3rem;
+    width: 9rem;
+    font-size: 1.10rem;
+    font-weight: Bold;
+    cursor: pointer;
+    color: #fff;
+    background: #0000ff;
+    border: none;
+    border-radius: 30px;
+    font-family: Poppins;
+}
+button:hover {
+    background: #fff;
+    color: #171717;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px #fff;
+}
+#section6 h1 {
+    color: #fff;
+}
+#section6 .content6 {
+    position: relative;
+    top: -2rem;
+    border: solid 2px #fff;
+    border: none;
+    height: 35rem;
+}
+#section6 .contact-message {
+    border: 2px solid #fff;
+    border: none;
+    border-radius: 15px;
+    position: relative;
+    top: -6rem;
+    width: 22rem;
+    height: 30rem;
+    padding: 10px;
+    margin: 2%;
+    text-align: center;
+}
+.contact-message p {
+    font-size: 1.50rem;
+}
+.contact-message {
+    background: #000000;
+    box-shadow: 0px 6px 0px #fff;
+}
+.contact-message #client-btn {
+    position: relative;
+    top: 8.20rem;
+    left: 0rem;
+    height: 3rem;
+    width: 20rem;
+    font-family: 'Poppins';
+    font-size: 1.50rem;
+    cursor: pointer;
+}
+.contact-message input {
+    height: 2rem;
+    width: 20rem;
+    margin: 2%;
+    padding: 2px;
+    outline-color: #fff;
+    font-family: 'Poppins';
+    position: relative;
+    top: 8rem;
+}
+.contact-message #message {
+    height: 5rem;
+    width: 20rem;
+    margin: 2%;
+    padding: 2px;
+    outline-color: #fff;
+    font-family: 'Poppins';
+}
+.contact-message #message {
+    position: relative;
+    top: 8rem;
+}
+.contact-message #client-message {
+    position: relative;
+    top: 8rem;
+}
+#section6 .map {
+    position: relative;
+    top: -30rem;
+    left: 30rem;
+    width: 40rem;
+}
+#section6 .address {
+    color: #fff;
+}
+.client-response h1 {
+    text-align: center;
+    color: #fff;
+}
+.back-button {
+    font-family: Oswald;
+    position: absolute;
+    left: 45%;
+    top: 20%;
+}
